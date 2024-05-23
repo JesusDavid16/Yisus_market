@@ -1,2 +1,13 @@
 # Yisus_market
 Tienda virtual de zapatillas y ropa nike.
+PAGINA WEB DE SNEAKERS0 NIKE DUNKS LOW
+
+Proyecto elaborado por: Jesús David Romero
+
+HERRAMIENTAS UTILIZADAS:
+-HTML5
+-CSS
+-JAVASCRIPT
+-GIT HUB
+
+(PROYECTO ELABORADO CON FINES EDUCATIVOS PARA UN EXAMEN PRACTICO)
