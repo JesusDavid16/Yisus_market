@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Yisus Market</title>
     <link rel="stylesheet" href="style.css">
-    <meta name="description" content="By sneakers- Tienda sneakers Vizcaya- Tiendas de zapatillas de nike version dunks low con excelentes para skaters y genero hurbano, zapatillas nike dunks low."/>
 </head>
-<body>
+<body class="bodyRegister">
     <header>
         <h1 class="TituloPage">Yisus Market</h1>
         <nav>
@@ -21,44 +20,38 @@
         <img src="logos/nike_blanco.jpg" alt="" class="logoNike">
 
     </header>
-    <main>
-        <div class="contenedorForm">
-            <form action="" class="formulario">
+    <main class="registro">
+        <div class="contenedorRegister">
+            <form action="" class="formulario" id="registroForm">
 
-                <h2>FORMULARIO</h2>
+                <h2>REGISTRO</h2>
+
                 <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" id="nombre" class="nombre" required>
+                <input type="text" name="nombre" id="name" class="nombre" required>
 
                 <label for="apellido">Apellido</label>
-                <input type="text" name="apellido" id="apellido" class="apellido">
+                <input type="text" name="apellido" id="lastname" class="apellido" required>
 
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email" class="email">
+                <input type="email" name="email" id="mail" class="email" required>
 
                 <label for="telefono">Telefono</label>
-                <input type="text" name="telefono" id="telefono" class="telefono">
+                <input type="text" name="telefono" id="telefono" class="telefono" required>
 
 
-                <label for="mensaje">Comentario</label>
-                <textarea name="mensaje" id="mensaje" cols="60" rows="10"></textarea>
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" id="password" required>
 
-                <div class="tyc">
-                <input type="checkbox" id="checkbox">
-                <span>Acepto los términos y condiciones</span>
-                </div>
-
-                <input id="enviar" type="submit" value="Enviar" class="botonForm" disabled>
+                <input type="submit" value="Enviar" class="botonForm">
             </form>
-            <div class="reloj">
-                <div class="contenedorFecha">
-                    <p class="fecha"></p>
-                    <p class="tiempo"></p>
-                </div>
-            </div>
         </div>
-        <div class="foto1"><img id="foto1" src="/chicaConNikeGris.jpeg" alt="" class="foto1"></div>
-
+        <div class="foto1"></div>
     </main>
+    <section id="fecha">
+        <div class="dia"></div>
+        <div class="mes"></div>
+        <div class="hora"></div>
+    </section>
 
 <footer>
     <div class="copyring">
@@ -78,8 +71,6 @@
         <img src="logos/youtube.png" alt="" class="logo">
     </div>
 </footer>
-<script src="/js/cambiarImage.js"></script>
-<script src="js/fecha.js"></script>
-<script src="js/boton.js"></script>
+<script src="/js/register.js"></script>
 </body>
 </html>
