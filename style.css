@@ -14,6 +14,16 @@ header{
 .logoNike{
     width: 5rem;
 }
+.dunks{
+    border: solid 3px;
+    width: 28rem;
+    height: 28rem;
+    display: flex; /* Agregado para centrar contenido */
+    justify-content: center; /* Agregado para centrar horizontalmente */
+    align-items: center; /* Agregado para centrar verticalmente */
+    margin: auto;
+    filter: drop-shadow(1px 7px 12px #000000);
+}
 .TituloPage:hover{
     color: red;
     cursor: pointer;
@@ -38,13 +48,19 @@ h1{
     color: white;
     margin-left: 2rem;
 }
-img{
-    width: 25rem;
-    margin-right: 1rem;
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.containerDunks{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    padding: 1rem;
 }
 main{
     width: 100%;
